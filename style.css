@@ -130,6 +130,8 @@ color: #ff004f;
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    text-decoration: none;
+    font-size: 14px;
 }
 .tab-contents ul li span{
     color: #b54769;
@@ -140,6 +142,11 @@ color: #ff004f;
 }
 .tab-contents.active-tab{
     display: block;
+}
+.tab-contents ul li a {
+    text-decoration: none;
+    color: #ababab;
+    font-weight: 100;
 }
 
 /*------------services--------------*/
