@@ -7,6 +7,7 @@
 
 html{
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -89,6 +90,7 @@ color: #ff004f;
 
 }
 .about-col-1 img{
+    display: flex;
     width: 100%;
     border-radius: 15px;
 }
@@ -114,18 +116,21 @@ color: #ff004f;
     position: relative;
 
 }
+
 .tab-links::after{
     contain: '';
     width: 0;
     height: 3px;
-    background-color: #ff004f;
+    background: #ff004f;
     position: absolute;
     left: 0;
     bottom: -8px;
     transition: 0.5s;
 }
+
 .tab-links.active-link::after{
     width: 50%;
+    
 }
 .tab-contents ul li{
     list-style: none;
@@ -310,27 +315,14 @@ transform: translateY(-5px);
     display: inline-block;
     
 }
-.contact-right form{
-    width: 100%;
 
+.contact-right a{
+    display:block;
+    margin-top: 42.2%;
+    margin-right: 0;
+    
 }
-form input, form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #262626;
-    padding: 15px;
-    margin: 15px 0;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 6px;
-}
-form .btn2{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-}
+
 .copyright{
     width: 100%;
     text-align: center;
