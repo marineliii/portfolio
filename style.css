@@ -19,6 +19,7 @@ body{
     width: 100%;
     height: 100vh;
     background-image: url(images/testSlika2.png);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 
@@ -344,6 +345,7 @@ nav .fas{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/testSlika2.png);
+        background-attachment: fixed;
     }
     .header-text{
         margin-top: 100%;
@@ -403,6 +405,8 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+    
+    
 }
 #msg{
     color: #61b752;
