@@ -120,6 +120,7 @@ color: #ff004f;
 
 .tab-links::after{
     contain: '';
+    content: '';
     width: 0;
     height: 3px;
     background: #ff004f;
@@ -131,8 +132,8 @@ color: #ff004f;
 
 .tab-links.active-link::after{
     width: 50%;
-    
 }
+
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
@@ -171,7 +172,7 @@ padding: 30px 0;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
-    border-radius: 100px;
+    border-radius: 3rem;
     transition: background 0.5s,transform 0.5s;
 }
 .services-list div i{
@@ -214,7 +215,7 @@ padding: 30px 0;
 
 }
 .work img{
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -399,7 +400,7 @@ nav .fas{
     }
 
     .contact-left, .contact-right{
-        flex-basis: 100%;
+        flex-basis: 50%;
 
     }
     .copyright{
