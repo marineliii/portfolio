@@ -288,9 +288,10 @@ padding: 30px 0;
 
 }
 .contact-right{
-    flex-basis: 60%;
+    flex-basis: 53%;
 }
 .contact-left p{
+    display:inline-flex;
     margin-top: 30px;
 }
 .contact-left p i{
@@ -304,6 +305,7 @@ padding: 30px 0;
 }
 .social-icons{
     margin-top: 30px;
+    display: inline-flex;
 }
 .social-icons a{
     text-decoration: none;
@@ -344,9 +346,19 @@ nav .fas{
 }
 
 @media only screen and (max-width: 600px){
+
+
+    body{
+        background-color: black;
+        color: white;
+        padding: 0;
+    
+    }
+
     #header{
         background-image: url(images/testSlika2.png);
         background-attachment: fixed;
+        background-position-x: right;
     }
     .header-text{
         margin-top: 100%;
@@ -382,7 +394,7 @@ nav .fas{
         cursor: pointer;
     }
     .sub-title{
-        font-size: 14px;
+        font-size: 30px;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
@@ -405,6 +417,11 @@ nav .fas{
     }
     .copyright{
         font-size: 14px;
+    }
+    .btn.btn3{
+        display: inline-block;
+        text-align: center;
+        padding: 14px 27px;
     }
     
     
